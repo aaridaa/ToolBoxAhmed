@@ -16,21 +16,5 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void onClick(View v)
-    {
-        Switch simpleSwitch = (Switch) findViewById(R.id.simpleSwitch);
-        Boolean switchState = simpleSwitch.isChecked();
-        String regOrPremium = "";
 
-        if(switchState == true)
-            regOrPremium = "reg";
-        else
-            regOrPremium = "prem";
-
-        Intent intent = new Intent(this, TicketActivity.class);
-
-        intent.putExtra(TicketActivity.REG_PREM, regOrPremium);
-
-        startActivity(intent);
-    }
 }
