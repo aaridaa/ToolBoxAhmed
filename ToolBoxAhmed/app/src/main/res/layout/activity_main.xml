@@ -4,183 +4,133 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
-<androidx.constraintlayout.widget.ConstraintLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/background"
-    android:paddingLeft="10dp"
-    android:paddingRight="10dp"
-    tools:context=".MainActivity">
 
-
-
-    <TextView
-        android:id="@+id/title"
-        android:layout_width="351dp"
-        android:layout_height="48dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="28dp"
-        android:background="@color/colorPrimary"
-        android:paddingLeft="10dp"
-        android:paddingTop="5dp"
-        android:paddingRight="10dp"
-        android:paddingBottom="5dp"
-        android:text="Gisney World Theme Park"
-        android:textSize="28dp"
-        app:fontFamily="@font/concert_one"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="244dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="12dp"
-        android:layout_marginEnd="84dp"
-        android:layout_marginRight="84dp"
-        android:gravity="center_horizontal"
-        android:text="where all your dreams come true!
-    (some restrictions apply)"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/title" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="385dp"
-        android:layout_height="40dp"
-        android:layout_marginTop="124dp"
-        android:layout_marginEnd="12dp"
-        android:gravity="center_horizontal"
-        android:text="take a look at our VERY real and VERY safe variety of attractions that guaruntee full fun for the family!"
-        android:textColor="@color/colorAccent"
-        android:textSize="12dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="208dp"
-        android:layout_height="113dp"
-        android:layout_marginTop="176dp"
-        android:layout_marginEnd="192dp"
-        android:layout_marginRight="192dp"
-        android:src="@drawable/gisney2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="178dp"
-        android:layout_height="20dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:text="Obligatory Harry Potter Ride"
-        android:textColor="@color/colorAccent"
-        app:fontFamily="@font/concert_one"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="154dp"
-        android:layout_height="66dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="4dp"
-        android:text="Enter the magical world of Harry Potter with fake dragons and lots of little kids with wands. Also the price of the costume is more than the ticket."
-        android:textSize="10dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView3" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="222dp"
-        android:layout_height="117dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="184dp"
-        android:layout_marginRight="184dp"
-        android:src="@drawable/gisney3"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="128dp"
-        android:layout_height="19dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="56dp"
-        android:layout_marginRight="56dp"
-        android:text="Pirates of Carribean"
-        android:textColor="@color/colorAccent"
-        app:fontFamily="@font/concert_one"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="154dp"
-        android:layout_height="66dp"
-        android:layout_marginTop="4dp"
-        android:text="We think. We actually don't know. But it has a ship. So expect pirates and a missing wallet."
-        android:textSize="10dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/textView5" />
-
-    <Switch
-        android:id="@+id/switch1"
-        android:layout_width="wrap_content"
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="64dp"
-        android:layout_marginEnd="164dp"
-        android:background="@color/colorPrimary"
-        android:paddingStart="10dp"
-        android:paddingEnd="10dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
-
-    <TextView
-        android:id="@+id/textView7"
-        android:layout_width="47dp"
-        android:layout_height="23dp"
-        android:layout_marginTop="64dp"
-        android:layout_marginEnd="16dp"
-        android:text="Regular"
-        app:fontFamily="@font/concert_one"
-        app:layout_constraintEnd_toStartOf="@+id/switch1"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
-
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="65dp"
-        android:layout_height="24dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="92dp"
-        android:text="Premium"
-        app:fontFamily="@font/concert_one"
-        app:layout_constraintStart_toEndOf="@+id/switch1"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="139dp"
-        android:layout_height="53dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:text="You get to go to Gisney World and we take your money"
-        android:gravity="right"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView7" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="90dp"
-        android:layout_height="51dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="52dp"
-        android:text="Better Instagram photos"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+        android:background="@color/background"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        tools:context=".MainActivity">
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="351dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginEnd="28dp"
+            android:background="@color/colorPrimary"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="5dp"
+            android:text="Gisney World Theme Park"
+            android:textSize="28dp"
+            app:fontFamily="@font/concert_one"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="244dp"
+            android:layout_height="49dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="84dp"
+            android:layout_marginRight="84dp"
+            android:gravity="center_horizontal"
+            android:text="where all your dreams come true!
+    (some restrictions apply)"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/title" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="385dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="124dp"
+            android:layout_marginEnd="12dp"
+            android:gravity="center_horizontal"
+            android:text="take a look at our VERY real and VERY safe variety of attractions that guaruntee full fun for the family!"
+            android:textColor="@color/colorAccent"
+            android:textSize="12dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="208dp"
+            android:layout_height="113dp"
+            android:layout_marginLeft="@dimen/marginLeftAttractions"
+            android:layout_marginTop="176dp"
+            android:src="@drawable/gisney2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="178dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="@dimen/marginTitleToAttractions"
+            android:layout_marginTop="12dp"
+            android:text="Obligatory Harry Potter Ride"
+            android:textColor="@color/colorAccent"
+            app:fontFamily="@font/concert_one"
+            app:layout_constraintStart_toEndOf="@+id/imageView2"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="154dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="@dimen/marginToTitle"
+            android:layout_marginEnd="@dimen/marginToRightAttractions"
+            android:text="Enter the magical world of Harry Potter with fake dragons and lots of little kids with wands. Also the price of the costume is more than the ticket."
+            android:textSize="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="208dp"
+            android:layout_height="113dp"
+            android:layout_marginLeft="@dimen/marginLeftAttractions"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/gisney3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="127dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="28dp"
+            android:text="Pirates of Carribean"
+            android:textColor="@color/colorAccent"
+            app:fontFamily="@font/concert_one"
+            app:layout_constraintStart_toStartOf="@+id/textView6"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="154dp"
+            android:layout_height="66dp"
+            android:layout_marginTop="@dimen/marginToTitle"
+            android:layout_marginEnd="@dimen/marginToRightAttractions"
+            android:text="We think. We actually don't know. But it has a ship. So expect pirates and a missing wallet."
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <Button
+            android:layout_width="78dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="164dp"
+            android:text="Next Page"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

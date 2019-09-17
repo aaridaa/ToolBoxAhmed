@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="marginLeftAttractions">0dp</dimen>
+    <dimen name="marginTitleToAttractions">4dp</dimen>
+    <dimen name="marginToTitle">8dp</dimen>
+    <dimen name="marginToRightAttractions">20dp</dimen>
+    <dimen name="marginToSwitch">20dp</dimen>
+    <dimen name="marginToTitle2">44dp</dimen>
+
+</resources>
